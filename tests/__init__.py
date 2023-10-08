@@ -60,3 +60,4 @@ def write_text_file(file_name, text):
     """
     with open(file_name, mode='w') as file:
         file.write(text)
+

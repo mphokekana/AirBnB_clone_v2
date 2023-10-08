@@ -46,4 +46,3 @@ class TestUser(TestBasemodel):
             type(new.password),
             str if os.getenv('HBNB_TYPE_STORAGE') != 'db' else type(None)
         )
-

@@ -184,3 +184,4 @@ class TestBasemodel(unittest.TestCase):
         self.assertTrue(i in storage.all().values())
         i.delete()
         self.assertFalse(i in storage.all().values())
+

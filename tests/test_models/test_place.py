@@ -98,3 +98,4 @@ class TestPlace(TestBasemodel):
         """Tests the type of amenity_ids."""
         new = self.value()
         self.assertEqual(type(new.amenity_ids), list)
+

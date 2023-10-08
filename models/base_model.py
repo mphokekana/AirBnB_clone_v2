@@ -65,3 +65,4 @@ class BaseModel:
                     res[key] = value
         res['__class__'] = self.__class__.__name__
         return res
+

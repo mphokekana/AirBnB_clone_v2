@@ -10,3 +10,4 @@ storage = DBStorage() if os.getenv(
 """A unique FileStorage/DBStorage instance for all models.
 """
 storage.reload()
+

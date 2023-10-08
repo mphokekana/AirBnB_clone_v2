@@ -180,3 +180,4 @@ class TestDBStorage(unittest.TestCase):
         self.assertEqual(new_count[0][0], old_count[0][0] + 1)
         cur.close()
         db.close()
+
